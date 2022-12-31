@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "bebasneue-book";
+  src: url("../fonts/bebasneue-book-webfont.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+section {
+  width: 1240px;
+  height: 640px;
+  background-color: #2b2a30;
+  margin: auto auto;
+  position: relative;
+}
+
+#circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: 8px solid #9d0000;
+
+  position: relative;
+}
+
+#time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#minute,
+#second,
+span {
+  display: inline-block;
+  font-family: "bebasneue-book";
+  font-size: 155px;
+  color: white;
+}
+
+#start {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  top: 50%;
+  left: 50%;
+  font-size: 55px;
+  background-color: #2b2a30;
+  outline: none;
+  color: white;
+  transform: translate(-50%, 107%);
+  letter-spacing: 7px;
+}
+
+#gear {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 511%);
+  fill: #2b2a30;
+}
